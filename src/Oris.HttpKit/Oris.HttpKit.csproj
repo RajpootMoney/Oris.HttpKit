@@ -7,7 +7,7 @@
 
 		<!-- NuGet Metadata -->
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<PackageId>Oris.HttpKit</PackageId>
+		<PackageId>OrisHttpKit</PackageId>
 		<Version>1.0.0</Version>
 		<Authors>Narender Singh</Authors>
 		<Company>Oris</Company>
