@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- NuGet Metadata -->
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>Oris.HttpKit</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Narender Singh</Authors>
+		<Company>Oris</Company>
+		<Description>A lightweight HTTP helper library with retry, caching, and logging support.</Description>
+		<PackageTags>http client retry cache logging oris</PackageTags>
+		<RepositoryUrl>https://github.com/rajpootmoney/Oris.HttpKit</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/rajpootmoney/Oris.HttpKit</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Serilog" Version="4.3.0" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+		<PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+	</ItemGroup>
+
+</Project>
+
